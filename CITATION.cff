@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "CCDD: Counterfactual Context Divergence Decoding"
+type: software
+version: 0.1.0
+date-released: 2026-10-07
+authors:
+  - family-names: Wang
+    given-names: Yajing
+  - family-names: Wang
+    given-names: Jingzhe
+  - family-names: Sun
+    given-names: Yi
+  - family-names: Luo
+    given-names: Zongwei
+preferred-citation:
+  type: article
+  title: "Causal Decoding for Context-Faithful Generation in Large Language Models"
+  authors:
+    - family-names: Wang
+      given-names: Yajing
+    - family-names: Wang
+      given-names: Jingzhe
+    - family-names: Sun
+      given-names: Yi
+    - family-names: Luo
+      given-names: Zongwei
+  year: 2026
+

@@ -1,0 +1,25 @@
+{
+  "paper_title": "Causal Decoding for Context-Faithful Generation in Large Language Models",
+  "decoding": {
+    "paper_objective": "absolute",
+    "available_objectives": ["absolute", "signed"],
+    "default_temperature": 1.0
+  },
+  "models": [
+    "DeepSeek-R1-Distill-Qwen-7B",
+    "Mistral-7B",
+    "Gemma2-2B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-3B",
+    "Qwen2.5-7B",
+    "FLAN-T5-XL"
+  ],
+  "datasets": {
+    "question_answering": ["ConFiQA"],
+    "bias_sensitive_question_answering": ["BBQ-Age"],
+    "summarization": ["CNN/DailyMail"],
+    "temporally_updated_question_answering": ["RealTime QA"]
+  },
+  "note": "Resolve exact model and dataset revisions before a paper-scale rerun."
+}
+

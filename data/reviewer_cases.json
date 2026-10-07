@@ -1,0 +1,33 @@
+[
+  {
+    "id": "composer-conflict",
+    "eos_token_id": 3,
+    "expected_token_ids": [0, 3],
+    "steps": [
+      {
+        "factual_probabilities": [0.70, 0.10, 0.10, 0.10],
+        "counterfactual_probabilities": [0.10, 0.30, 0.30, 0.30]
+      },
+      {
+        "factual_probabilities": [0.10, 0.10, 0.10, 0.70],
+        "counterfactual_probabilities": [0.10, 0.10, 0.10, 0.70]
+      }
+    ]
+  },
+  {
+    "id": "multiple-choice-conflict",
+    "eos_token_id": 5,
+    "expected_token_ids": [1, 5],
+    "steps": [
+      {
+        "factual_probabilities": [0.06, 0.70, 0.06, 0.06, 0.06, 0.06],
+        "counterfactual_probabilities": [0.18, 0.10, 0.18, 0.18, 0.18, 0.18]
+      },
+      {
+        "factual_probabilities": [0.08, 0.08, 0.08, 0.08, 0.08, 0.60],
+        "counterfactual_probabilities": [0.08, 0.08, 0.08, 0.08, 0.08, 0.60]
+      }
+    ]
+  }
+]
+

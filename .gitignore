@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+dist/
+build/
+
+# Generated artifacts
+outputs/
+results/
+*.log
+
+# Models and large data are intentionally excluded
+models/
+checkpoints/
+data/raw/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.zip
+

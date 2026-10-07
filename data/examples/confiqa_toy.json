@@ -1,0 +1,21 @@
+[
+  {
+    "id": "toy-composer",
+    "question": "Who composed the fictional film Example Three?",
+    "orig_context": "Example Three was composed by Lorne Balfe.",
+    "cf_context": "Example Three was composed by Petri Alanko.",
+    "orig_answer": "Lorne Balfe",
+    "cf_answer": "Petri Alanko",
+    "orig_alias": ["Lorne David Roderick Balfe"],
+    "cf_alias": ["Petri Rainer Mikael Alanko"]
+  },
+  {
+    "id": "toy-planet",
+    "question": "Which planet is the fictional probe orbiting?",
+    "orig_context": "The probe is currently orbiting Venus.",
+    "cf_context": "The probe is currently orbiting Mercury.",
+    "orig_answer": "Venus",
+    "cf_answer": "Mercury"
+  }
+]
+

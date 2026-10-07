@@ -1,0 +1,3 @@
+{"id":"example-1","factual_prediction":"Lorne Balfe","factual_target":["Lorne Balfe","Lorne David Roderick Balfe"],"counterfactual_prediction":"Petri Alanko","counterfactual_target":"Petri Alanko","parametric_prediction":"Lorne Balfe"}
+{"id":"example-2","factual_prediction":"Mercury","factual_target":"Venus","counterfactual_prediction":"Venus","counterfactual_target":"Venus","parametric_prediction":"Mercury"}
+

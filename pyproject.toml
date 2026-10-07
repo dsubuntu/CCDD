@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccdd-decoding"
+version = "0.1.0"
+description = "Counterfactual Context Divergence Decoding for context-faithful generation"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  {name = "Yajing Wang"},
+  {name = "Jingzhe Wang"},
+  {name = "Yi Sun"},
+  {name = "Zongwei Luo"}
+]
+keywords = [
+  "context-faithfulness",
+  "causal-inference",
+  "decoding",
+  "large-language-models"
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+dependencies = []
+
+[project.optional-dependencies]
+hf = [
+  "torch>=2.1",
+  "transformers>=4.40"
+]
+dev = [
+  "pytest>=8",
+  "ruff>=0.6"
+]
+
+[project.scripts]
+ccdd = "ccdd.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
